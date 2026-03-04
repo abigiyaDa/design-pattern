@@ -50,3 +50,11 @@ if __name__ == "__main__":
     # channel uploads videos
     channel.upload_video("How to use the Observer Pattern in Python")
     channel.upload_video("10 Tips for Python Developers")
+
+# output:
+# Tech Guru uploaded a new video: How to use the Observer Pattern in Python
+# User Alice notified: Tech Guru uploaded 'How to use the Observer Pattern in Python'
+# User Bob notified: Tech Guru uploaded 'How to use the Observer Pattern in Python'
+# Tech Guru uploaded a new video: 10 Tips for Python Developers
+# User Alice notified: Tech Guru uploaded '10 Tips for Python Developers'
+# User Bob notified: Tech Guru uploaded '10 Tips for Python Developers'

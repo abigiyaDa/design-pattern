@@ -44,3 +44,9 @@ if __name__ == "__main__":
     processor.set_strategy(BitcoinPayment())
     processor.pay(300)
 
+
+# output:
+# Paid 100 using Credit Card
+# Paid 200 using paypal
+# Paid 300 using bitcoin    
+

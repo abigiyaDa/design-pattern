@@ -67,3 +67,9 @@ if __name__ == "__main__":
 
     print("\nApp: Using Sea Logistics")
     client_code(SeaLogistics())
+
+# Output:
+# App: Using Road Logistics
+# Logistics: Planning delivery... Delivering cargo by land in a truck.  
+# App: Using Sea Logistics
+# Logistics: Planning delivery... Delivering cargo by sea in a ship.

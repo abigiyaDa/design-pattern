@@ -48,3 +48,10 @@ if __name__ == "__main__":
 
     weather_station.remove_observer(phone_display)
     weather_station.set_temperature(28)
+
+# Output:
+# Phone display updated: 25°C
+# Window display updated: 25°C
+# Phone display updated: 30°C
+# Window display updated: 30°C
+# Window display updated: 28°C

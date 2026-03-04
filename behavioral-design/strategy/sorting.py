@@ -62,3 +62,8 @@ if __name__ == "__main__":
 
     sorter.set_strategy(ReverseStrategy(QuickSortStrategy()))
     print("Reversed Sort:", sorter.sort(data.copy()))
+
+# output:
+# Bubble Sort: [1, 2, 5, 5, 6, 9]
+# Quick Sort: [1, 2, 5, 5, 6, 9]
+# Reversed Sort: [9, 6, 5, 5, 2, 1]

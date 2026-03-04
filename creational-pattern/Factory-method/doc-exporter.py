@@ -51,3 +51,14 @@ if __name__ == "__main__":
 
     print("\nClient: Testing Excel Exporter Factory:")
     client_code(ExcelExporterFactory(), data)
+
+
+# Output:
+# Client: Testing PDF Exporter Factory:
+# Exporting data to PDF format: Sample data to export
+
+# Client: Testing Word Exporter Factory:
+# Exporting data to Word format: Sample data to export
+
+# Client: Testing Excel Exporter Factory:
+# Exporting data to Excel format: Sample data to export

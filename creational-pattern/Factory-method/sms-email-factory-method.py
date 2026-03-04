@@ -53,3 +53,13 @@ if __name__ == "__main__":
 
     print("\nClient: Testing Push Notification Factory:")
     client_code(PushNotificationFactory())
+
+# output:
+# Client: Testing SMS Notification Factory:
+# Sending SMS notification. 
+
+# Client: Testing Email Notification Factory:
+# Sending Email notification.
+
+# Client: Testing Push Notification Factory:
+# Sending Push notification.

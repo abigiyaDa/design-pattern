@@ -73,3 +73,8 @@ if __name__ == "__main__":
     client_code(PDFExporterFactory(), data, "sample.pdf")
     client_code(WordExporterFactory(), data, "sample.docx")
     client_code(ExcelExporterFactory(), data, "sample.xlsx")
+
+# Output:
+# PDF saved as sample.pdf
+# Word file saved as sample.docx
+# Excel file saved as sample.xlsx
